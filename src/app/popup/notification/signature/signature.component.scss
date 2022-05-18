@@ -1,0 +1,165 @@
+@import 'src/styles/theme-default';
+@import 'src/styles/popup-default';
+
+.head {
+    width: 100%;
+    padding: 57px 15px 35px 15px;
+
+    .content {
+        width: 345px;
+        height: 147px;
+        border-radius: 10px;
+        position: relative;
+        padding: 20px 22px 12px 22px;
+        box-shadow: 0px 3px 13px 0px map-get($neo-line-default, 300);
+
+        .avatar {
+            border-radius: 6px;
+            width: 49px;
+            height: 49px;
+            position: absolute;
+            top: -33px;
+            left: 50%;
+            margin-left: -24px;
+            background: rgba(73, 73, 73, 1);
+            box-shadow: 0px 3px 13px 0px map-get($neo-line-default, 300);
+        }
+
+        .request {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 50px;
+            color: map-get($colors, 333333);
+            border-bottom: 1px solid map-get($colors, e4e3f9);
+        }
+
+        .account {
+            padding: 0 14px;
+
+            .account-name {
+                float: left;
+                text-align: left;
+
+                .name-detail {
+                    height: 24px;
+                    display: inline-flex;
+                    align-items: center;
+
+                    img {
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 12px;
+                        background: rgba(73, 73, 73, 1);
+                    }
+                }
+            }
+
+            .name-tip,
+            .value-tip {
+                width: 55px;
+                height: 17px;
+                line-height: 17px;
+                border-radius: 4px;
+                font-size: 12px;
+                font-weight: 500;
+                text-align: center;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                background: rgba(122, 135, 169, 1);
+                color: map-get($colors, fef9ff);
+            }
+
+            span.name,
+            span.amount {
+                font-size: 15px;
+                font-weight: bold;
+                color: map-get($colors, 333333);
+            }
+
+            .account-value {
+                float: right;
+                text-align: left;
+
+                .value-detail {
+                    height: 24px;
+                    line-height: 24px;
+                }
+
+                .type {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: map-get($colors, 9fa8bd);
+                }
+            }
+        }
+    }
+}
+
+.loading {
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background: #fef9ff;
+    color: #742d80;
+}
+
+.message {
+    padding: 0 15px;
+
+    .item {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        font-weight: bold;
+        border-bottom: 1px solid map-get($colors, e5e5e5);
+
+        .item-tip {
+            font-size: 15px;
+            line-height: 40px;
+            padding: 0 10px;
+            color: map-get($colors, 999999);
+        }
+
+        .item-value {
+            font-size: 14px;
+            padding: 0 10px;
+            color: map-get($colors, 333333);
+        }
+    }
+}
+
+.submit-group {
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    left: 27px;
+    right: 27px;
+
+    .button-group {
+        width: 100%;
+        position: relative;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+    button.cancel {
+        box-shadow: 0px 2px 8px 0px map-get($neo-line-default, 300);
+        color: map-get($neo-line-default, 500);
+    }
+
+    button.confirm {
+        position: absolute;
+        right: 0;
+        box-shadow: 0px 5px 8px 0px map-get($neo-line-default, 300);
+        background: linear-gradient(180deg, hsl(291deg 48% 45%), #742d80);
+        color: map-get($neo-line-default, 50);
+    }
+}

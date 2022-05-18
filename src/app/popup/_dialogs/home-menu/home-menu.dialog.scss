@@ -1,0 +1,150 @@
+@import 'src/styles/theme-default';
+
+.dialog-home-menu-container {
+    max-height: 500px;
+
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 7px solid white;
+        margin-left: 90%;
+    }
+
+    .menu-body {
+        width: 315px;
+        overflow: auto;
+        background-color: white;
+        border-radius: 15px;
+        padding-top: 12px;
+
+        .title {
+            color: #434543;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 4px;
+        }
+
+        .spacer {
+            flex: 1 1 auto;
+        }
+
+        button {
+            color: map-get($neo-line-default, 500);
+            font-size: 13px;
+            background-color: #fef9ff;
+
+            // height: 30px;
+            .text {
+                vertical-align: middle;
+                margin-left: 4px;
+            }
+
+            img {
+                vertical-align: middle;
+            }
+        }
+
+        mat-toolbar {
+            background: white;
+        }
+
+        .wallet-container {
+            max-height: 140px;
+            overflow: auto;
+            scroll-behavior: smooth;
+
+            >img {
+                width: 30px;
+                height: 30px;
+                position: fixed;
+                top: 262px;
+                right: 30px;
+                cursor: pointer;
+            }
+
+            .account-item {
+                height: 70px;
+                line-height: 70px;
+                padding-left: 20px;
+                padding-right: 20px;
+                cursor: pointer;
+                color: #434543;
+
+                &:hover {
+                    color: #742d80;
+                }
+            }
+
+            .selected {
+                height: 18px;
+                width: 18px;
+                display: inline-flex;
+                vertical-align: middle;
+            }
+
+            .avatar {
+                height: 35px;
+                width: 35px;
+                margin-left: 16px;
+                vertical-align: middle;
+            }
+
+            .name {
+                font-size: 18px;
+                vertical-align: middle;
+                margin-left: 16px;
+                display: inline-block;
+                width: 50%;
+                text-overflow: ellipsis;
+                width: 50%;
+                overflow: hidden;
+            }
+
+        }
+
+        .menu-item {
+            height: 60px;
+            line-height: 60px;
+            padding: 0px 20px;
+            cursor: pointer;
+            color: #434543;
+
+            span {
+                margin-left: 15px;
+                font-size: 17px;
+                vertical-align: middle;
+            }
+
+            img {
+                vertical-align: middle;
+            }
+
+            &:hover {
+                color: #742d80;
+            }
+        }
+
+        hr {
+            border: none;
+
+            &.wallet-line {
+                margin: 0px 20px;
+                border-top: 0.5px solid #EFEFEF;
+            }
+
+            &.import-line {
+                border-top: 6px solid #F7F7F7;
+            }
+        }
+    }
+}
+
+::ng-deep {
+    .mat-dialog-container {
+        background: transparent;
+        box-shadow: none;
+        padding: 0px;
+    }
+}

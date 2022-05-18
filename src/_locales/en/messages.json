@@ -1,0 +1,659 @@
+{
+    "hello": {
+        "message": "Hello"
+    },
+    "closeWallet": {
+        "message": "Close wallet"
+    },
+    "account": {
+        "message": "Wallets"
+    },
+    "edit": {
+        "message": "Edit"
+    },
+    "assets": {
+        "message": "Assets"
+    },
+    "setting": {
+        "message": "Settings"
+    },
+    "mainNet": {
+        "message": "MainNet"
+    },
+    "testNet": {
+        "message": "TestNet"
+    },
+    "home": {
+        "message": "Home"
+    },
+    "about": {
+        "message": "About us"
+    },
+    "expandView": {
+        "message": "Expand View"
+    },
+    "close": {
+        "message": "Close"
+    },
+    "address": {
+        "message": "Address"
+    },
+    "copyAddress": {
+        "message": "Copy address"
+    },
+    "create": {
+        "message": "Create"
+    },
+    "import": {
+        "message": "Import"
+    },
+    "welcomeCreate": {
+        "message": "Welcome to dVITA Wallet. Create"
+    },
+    "welcomeImport": {
+        "message": "Welcome to dVITA Wallet. Import"
+    },
+    "enterWalletName": {
+        "message": "Set wallet name"
+    },
+    "walletNameIsRequired": {
+        "message": "Wallet name is required"
+    },
+    "lengthLimit": {
+        "message": "Length limit"
+    },
+    "enterPassword": {
+        "message": "Enter password"
+    },
+    "passwordRequired": {
+        "message": "Password is required"
+    },
+    "enterConfirmPassword": {
+        "message": "Enter password again"
+    },
+    "confirmError": {
+        "message": "Two passwords are different"
+    },
+    "creating": {
+        "message": "Creating"
+    },
+    "enterWIF": {
+        "message": "Enter WIF(Private key)"
+    },
+    "enterEncryptedKey": {
+        "message": "Enter Encrypted Key"
+    },
+    "WIFRequired": {
+        "message": "WIF is required"
+    },
+    "EncryptedKeyRequired": {
+        "message": "Encrypted Key required"
+    },
+    "importing": {
+        "message": "Importing"
+    },
+    "language": {
+        "message": "Language"
+    },
+    "loading": {
+        "message": "loading..."
+    },
+    "empty": {
+        "message": "Empty"
+    },
+    "receive": {
+        "message": "Receive"
+    },
+    "received": {
+        "message": "Received"
+    },
+    "sent": {
+        "message": "Sent"
+    },
+    "balance": {
+        "message": "Balance"
+    },
+    "balancecolon": {
+        "message": "Balance:"
+    },
+    "transgerTo": {
+        "message": "Transfer to"
+    },
+    "allTransfer": {
+        "message": "All"
+    },
+    "currencies": {
+        "message": "Currencies"
+    },
+    "transferToTip": {
+        "message": "Who will receive"
+    },
+    "amount": {
+        "message": "Amount"
+    },
+    "transferAmountTip": {
+        "message": "Amount to transfer out"
+    },
+    "cancel": {
+        "message": "Cancel"
+    },
+    "refuse": {
+        "message": "Refuse"
+    },
+    "submit": {
+        "message": "Submit"
+    },
+    "copy": {
+        "message": "Copy"
+    },
+    "displayWIF": {
+        "message": "Show Private Key"
+    },
+    "password": {
+        "message": "Password"
+    },
+    "verifyPassword": {
+        "message": "Verify your password"
+    },
+    "caution": {
+        "message": "Caution"
+    },
+    "transferExportTip": {
+        "message": "Please keep your Private Key safe, do not show it to anyone"
+    },
+    "verify": {
+        "message": "Verify"
+    },
+    "done": {
+        "message": "Done"
+    },
+    "transfer": {
+        "message": "Transfer"
+    },
+    "transferHistory": {
+        "message": "History"
+    },
+    "reocords": {
+        "message": "reocords"
+    },
+    "pages": {
+        "message": "pages"
+    },
+    "transferId": {
+        "message": "TxID"
+    },
+    "transferVolume": {
+        "message": "Volume"
+    },
+    "size": {
+        "message": "Size"
+    },
+    "time": {
+        "message": "Time"
+    },
+    "newWallet": {
+        "message": "New wallet"
+    },
+    "createTip": {
+        "message": "Welcome to dVITA Wallet, create a new wallet."
+    },
+    "logoutTip": {
+        "message": "Are you sure to close wallet?"
+    },
+    "yes": {
+        "message": "Yes"
+    },
+    "transferInfo": {
+        "message": "Transfer information"
+    },
+    "paymentAccount": {
+        "message": "Payment wallet"
+    },
+    "receiptAccount": {
+        "message": "Receipt wallet"
+    },
+    "privacyPolicy": {
+        "message": "Privacy Policy"
+    },
+    "termsOfUse": {
+        "message": "Terms of Use"
+    },
+    "companyWebsite": {
+        "message": "Official Website"
+    },
+    "contactUs": {
+        "message": "Contact Us"
+    },
+    "myAccountQRCode": {
+        "message": "My wallet QR code"
+    },
+    "complete": {
+        "message": "Complete"
+    },
+    "addAssetTip": {
+        "message": "Are you sure to add this asset?"
+    },
+    "delAssetTip": {
+        "message": "Do you confirm the deletion?"
+    },
+    "modifyNameTitle": {
+        "message": "Modify wallet name"
+    },
+    "modifyNameInput": {
+        "message": "Please enter a new wallet name(length 1-32)"
+    },
+    "connect": {
+        "message": "Connect"
+    },
+    "thAuthTitle": {
+        "message": "Connection request"
+    },
+    "thAuthTip": {
+        "message": "would like to connect to your wallet"
+    },
+    "thAuthDetail": {
+        "message": "This site is trying to request access to the DVITA API so that it can interact with the DVITA blockchain. Before approving your visit, be sure to double check that you are linking to the correct site."
+    },
+    "thSignTitle": {
+        "message": "Requesting your signature"
+    },
+    "signing": {
+        "message": "Signing"
+    },
+    "message": {
+        "message": "Message"
+    },
+    "signature": {
+        "message": "Signature"
+    },
+    "thAssetTip": {
+        "message": "Do you want to add these assets?"
+    },
+    "version": {
+        "message": "Version"
+    },
+    "addAsset": {
+        "message": "Add asset"
+    },
+    "searchResult": {
+        "message": "Search result"
+    },
+    "searchAssetsInput": {
+        "message": "Please enter asset, enter to search"
+    },
+    "hidden": {
+        "message": "Hidden"
+    },
+    "add": {
+        "message": "Add"
+    },
+    "added": {
+        "message": "Added"
+    },
+    "myAccounts": {
+        "message": "My accounts"
+    },
+    "myAccount": {
+        "message": "My account"
+    },
+    "importWallet": {
+        "message": "Import wallet"
+    },
+    "exportWallet": {
+        "message": "Export wallet"
+    },
+    "createWallet": {
+        "message": "Create wallet"
+    },
+    "clearCacheBtn": {
+        "message": "clear"
+    },
+    "clearCache": {
+        "message": "Local Cache"
+    },
+    "clearCacheTip": {
+        "message": "Clear all local cache"
+    },
+    "reset": {
+        "message": "Reset"
+    },
+    "chooseDep6File": {
+        "message": "Choose Dep6 File"
+    },
+    "welcomeBack": {
+        "message": "Welcome back"
+    },
+    "loginTip": {
+        "message": "Welcome to dVITA Wallet, please login first"
+    },
+    "pwdInput": {
+        "message": "Please enter your password"
+    },
+    "onlySupport": {
+        "message": "Support only for"
+    },
+    "login": {
+        "message": "Login"
+    },
+    "logining": {
+        "message": "Logging in"
+    },
+    "searchAllResult": {
+        "message": "All assets"
+    },
+    "clearStorageTips": {
+        "message": "Confirm clear cache?"
+    },
+    "authorizationManage": {
+        "message": "Authorization Management"
+    },
+    "authorizationManageTips": {
+        "message": "Clean up authorized sites"
+    },
+    "viewAll": {
+        "message": "View all"
+    },
+    "remove": {
+        "message": "Remove"
+    },
+    "switch": {
+        "message": "Switch"
+    },
+    "delete": {
+        "message": "Delete"
+    },
+    "authDelAllTip": {
+        "message": "Clear all authorized sites"
+    },
+    "welcomeDVITAWallet": {
+        "message": "Welcome to dVITA Wallet"
+    },
+    "myAddress": {
+        "message": "DVITA address:"
+    },
+    "myQRCode": {
+        "message": "Address QR code"
+    },
+    "setLang": {
+        "message": "Languages"
+    },
+    "WIFPattern": {
+        "message": "wrong WIF"
+    },
+    "EncryptedKeyPattern": {
+        "message": "wrong Encrypted Key"
+    },
+    "tranSubmit": {
+        "message": "Transaction submitted"
+    },
+    "waitConfirm": {
+        "message": "Please wait for confirmation"
+    },
+    "transaction": {
+        "message": "Transaction"
+    },
+    "confirming": {
+        "message": "confirming"
+    },
+    "transactions": {
+        "message": "Transactions"
+    },
+    "value": {
+        "message": "value"
+    },
+    "noTransaction": {
+        "message": "No transactions"
+    },
+    "wif": {
+        "message": "WIF(Private key)"
+    },
+    "delWalletConfirm": {
+        "message": "Are you sure to delete this wallet?"
+    },
+    "delAllAuthListConfirm": {
+        "message": "Are you sure delete all authorized sites?"
+    },
+    "rejected": {
+        "message": "Rejected"
+    },
+    "rejectedTip": {
+        "message": "This site has been rejected to connect to your dVITA Wallet. Please go to Authorization Management and delete the corresponding record if you allow it to connect"
+    },
+    "connectedTip": {
+        "message": "Connected to dVITA Wallet allowed"
+    },
+    "from": {
+        "message": "From"
+    },
+    "to": {
+        "message": "To"
+    },
+    "currencyUnit": {
+        "message": "Currency Unit"
+    },
+    "privacyData": {
+        "message": "Authorized Sites"
+    },
+    "clearPrivacyDataBtn": {
+        "message": "clear all authorized sites"
+    },
+    "clearPrivacyDataTip": {
+        "message": "Once these authorized sites cleared, all sites must re-request to view account information or request transfers."
+    },
+    "referSource": {
+        "message": "Reference source"
+    },
+    "updateTime": {
+        "message": "Update time"
+    },
+    "importNewWallet": {
+        "message": "Import an existing wallet"
+    },
+    "createNewWallet": {
+        "message": "Create a new wallet"
+    },
+    "or": {
+        "message": "OR"
+    },
+    "firstDigitalIdentity": {
+        "message": "First Digital Identity"
+    },
+    "createYour": {
+        "message": "Create Your"
+    },
+    "utc": {
+        "message": "UTC"
+    },
+    "priorityFee": {
+        "message": "Priority Fee (DVG)"
+    },
+    "priorityFeeTip": {
+        "message": "Optional"
+    },
+    "claim": {
+        "message": "Claim"
+    },
+    "syncNow": {
+        "message": "Sync Now"
+    },
+    "confirmed": {
+        "message": "Confirmed"
+    },
+    "success": {
+        "message": "Success"
+    },
+    "estimated": {
+        "message": "Estimated"
+    },
+    "connectChooseAllow": {
+        "message": "Allow and no longer remind"
+    },
+    "connectChooseNotAllow": {
+        "message": "No longer allowed"
+    },
+    "darkMode": {
+        "message": "Dark Mode"
+    },
+    "myTokens": {
+        "message": "my Tokens"
+    },
+    "authorized": {
+        "message": "Authorized"
+    },
+    "systemSettings": {
+        "message": "System settings"
+    },
+    "lock": {
+        "message": "Lock"
+    },
+    "noMoreData": {
+        "message": "No more data"
+    },
+    "generalSettings": {
+        "message": "General settings"
+    },
+    "viewOnExplorer": {
+        "message": "View on Explorer"
+    },
+    "accountDetails": {
+        "message": "Account details"
+    },
+    "accountAdded": {
+        "message": "Account added"
+    },
+    "removeAccount": {
+        "message": "Remove account"
+    },
+    "editFee": {
+        "message": "Edit Fee"
+    },
+    "resetWalletConfirm": {
+        "message": "After resetting the wallet, all the original wallet data will be erased and cannot be retrieved. Please confirm resetting the wallet?"
+    },
+    "slow": {
+        "message": "Slow"
+    },
+    "medium": {
+        "message": "Medium"
+    },
+    "fast": {
+        "message": "Fast"
+    },
+    "customize": {
+        "message": "Customize"
+    },
+    "resetWallet": {
+        "message": "Reset Wallet"
+    },
+    "transferAddress": {
+        "message": "Transfer Address"
+    },
+    "selectAsset": {
+        "message": "Choose Asset"
+    },
+    "importMethod": {
+        "message": "Import Method"
+    },
+    "importKey": {
+        "message": "Private Key Import"
+    },
+    "importFile": {
+        "message": "File Import"
+    },
+    "personalAccount": {
+        "message": "Personal Account"
+    },
+    "details": {
+        "message": "Details"
+    },
+    "data": {
+        "message": "Data"
+    },
+    "backUp": {
+        "message": "Back Up"
+    },
+    "backUpTip": {
+        "message": "Back up Reminder"
+    },
+    "backUpDesc1": {
+        "message": "1. Owning the private key is equivalent to owning the account assets"
+    },
+    "backUpDesc2": {
+        "message": "2. Please copy carefully, distinguish between uppercase and lowercase, and keep it in a safe place; dVITA Wallet is a decentralized wallet and will not store your private key; once the private key is lost, it cannot be retrieved, please make sure to back up the private key."
+    },
+    "backUpNow": {
+        "message": "Now"
+    },
+    "backUpLater": {
+        "message": "Later"
+    },
+    "donotScreenshot": {
+        "message": "Please do not capture"
+    },
+    "donotScreenshotTip": {
+        "message": "Do not share or save screenshots, which may be captured by third party malware and cause asset loss. Pay attention to the safety of the surrounding environment when copying."
+    },
+    "iKonw": {
+        "message": "Known"
+    },
+    "youPrivateKey": {
+        "message": "Your Private key"
+    },
+    "privateKeyTip": {
+        "message": "Tip: Please keep your private key properly and do not disclose it to anyone"
+    },
+    "backUpsafeTip": {
+        "message": "Security Warning"
+    },
+    "backUpTipLater": {
+        "message": "Later"
+    },
+    "backUpSafeDesc": {
+        "message": "Your private key has not been backed up yet. Please be sure to back up the private key to restore all assets corresponding to this address, to prevent the asset loss caused by forgetting password, application deletion, phone loss, etc."
+    },
+    "receiveOurNewsletter": {
+        "message": "Receive our Newsletter"
+    },
+    "newsletterTip": {
+        "message": "Get the latest updates from the dVITA team"
+    },
+    "newsletterDesc": {
+        "message": "You can unsubscribe from these newsletters at any time.For more information about how to unsubscribe, our privacy practices and how we are committed to protecting and respecting your privacy, please check our "
+    },
+    "newsletterPlaceholder": {
+        "message": "E-mail"
+    },
+    "privacyPolicyWrods": {
+        "message": "Privacy policy."
+    },
+    "signUpToReceiveUpdatesAndAnnouncements": {
+        "message": "Sign up to receive updates and announcements"
+    },
+    "recommendedAssets": {
+        "message": "Recommended Assets"
+    },
+    "myAssets": {
+        "message": "My Assets"
+    },
+    "saveChanges": {
+        "message": "Save changes"
+    },
+    "TOTAL": {
+        "message": "TOTAL"
+    },
+    "TRANSFER": {
+        "message": "TRANSFER"
+    },
+    "PRIORITYFEE": {
+        "message": "PRIORITY FEE"
+    },
+    "SYSTEMFEE": {
+        "message": "SYSTEM FEE"
+    },
+    "NETWORKFEE": {
+        "message": "NETWORK FEE"
+    },
+    "DVGFEE": {
+        "message": "DVG FEE"
+    }
+}

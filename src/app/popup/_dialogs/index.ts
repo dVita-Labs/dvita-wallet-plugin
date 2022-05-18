@@ -1,0 +1,14 @@
+export { PopupSelectDialogComponent } from './select/select.dialog';
+export { PopupAddTokenDialogComponent } from './add-token/add-token.dialog';
+export { PopupNameDialogComponent } from './name/name.dialog';
+export { PopupQRCodeDialogComponent } from './qrcode/qrcode.dialog';
+export { PopupConfirmDialogComponent } from './confirm/confirm.dialog';
+export { PopupHomeMenuDialogComponent } from './home-menu/home-menu.dialog';
+export { PopupAddressDialogComponent } from './address/address.dialog';
+export { PopupAssetDialogComponent } from './asset/asset.dialog';
+export { PopupTxDetailDialogComponent } from './tx-detail/tx-detail.dialog';
+export { PopupTransferSuccessDialogComponent } from './transfer-success/transfer-success.component';
+export { PopupEditFeeDialogComponent } from './edit-fee/edit-fee.dialog';
+export { PopupBackupTipDialogComponent } from './backup-tip/backup-tip.dialog';
+export { PopupSubscriptionEmailDialogComponent } from './subscription-email/subscription-email.dialog';
+export { PopupAuthorizationListDialogComponent } from './authorization-list/authorization-list.dialog';
